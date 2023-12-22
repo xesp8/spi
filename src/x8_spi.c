@@ -1,5 +1,6 @@
 #include <malloc.h>
 #include <string.h>
+#include "x8_spi.h"
 
 #define MULOF_U32(x) ((x) + (sizeof(uint32_t) - (((x) + sizeof(uint32_t)) % sizeof(uint32_t))))
 
